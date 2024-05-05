@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name = 'Đào Như Anh'
+    str = 'Tôi là' + name + '<br>';
+    for (let i = 1; i <= 200; i++) {
+        str += name + ' sinh năm 1999' + '<br>' +
+            name + ' quê ở Thái Bình' + '<br>' +
+            name + ' đang trong lớp C0424' + '<br>'
+        if (i == 10) {
+            str += '<i><b>' + name + ' sinh năm 1999' + '<br>' +
+                name + ' quê ở Thái Bình' + '<br>' +
+                name + ' đang trong lớp C0424' + '<br>' + '</b></i>'
+        }
+    }
+    str += name + ' đã có vợ và 2 con' + '<br>'
+    document.write(str);
+</script>
+</body>
+</html>

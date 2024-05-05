@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="add()">Them</button>
+<div id="dis"></div>
+<script>
+    let name = 'Đào Như Anh'
+    str = 'Tôi là' + name + '<br>';
+    str += name + ' sinh năm 1999' + '<br>' +
+        name + ' quê ở Thái Bình' + '<br>' +
+        name + ' đang trong lớp C0424' + '<br>'
+    str += name + ' đã có vợ và 2 con' + '<br>'
+    document.getElementById('dis').innerHTML = str;
+
+    function add() {
+        document.getElementById('dis').innerHTML += name + ' sinh năm 1999' + '<br>' +
+            name + ' quê ở Thái Bình' + '<br>' +
+            name + ' đang trong lớp C0424' + '<br>'
+    }
+</script>
+</body>
+</html>
